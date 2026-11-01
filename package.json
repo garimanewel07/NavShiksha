@@ -1,0 +1,23 @@
+{
+  "name": "nes-erp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "NES Unified ERP for Navy Children Schools, Naval Kindergartens, Commands and NES",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "setup": "npm install && npm run seed",
+    "dev": "node scripts/dev.mjs",
+    "seed": "npm run seed -w server",
+    "test": "npm test -w server",
+    "typecheck": "npm run typecheck -w server && npx -w web tsc --noEmit",
+    "build": "npm run build -w web",
+    "start": "node scripts/start.mjs",
+    "unlock": "node scripts/unlock.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+**/node_modules
+server/data
+web/dist
+server/scripts-tmp
+scratch
+.DS_Store

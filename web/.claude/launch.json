@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "nes-api", "runtimeExecutable": "npx", "runtimeArgs": ["tsx", "../server/src/server.ts"], "port": 8787 },
+    { "name": "nes-web", "runtimeExecutable": "npx", "runtimeArgs": ["vite", "--port", "5173"], "port": 5173 }
+  ]
+}

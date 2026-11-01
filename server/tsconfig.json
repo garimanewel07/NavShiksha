@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "src",
+    "test",
+    "../web/src/lib/chatCrypto.ts"
+  ]
+}
